@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Grayscale - Start Bootstrap Theme
+        title Aprende cómo se hace la música en Hollywood
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -27,39 +27,42 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') Music Centre
                 button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
                         li.nav-item
-                            a.nav-link(href='#about') About
+                            a.nav-link(href='#about') Sobre el Taller
                         li.nav-item
-                            a.nav-link(href='#projects') Projects
+                            a.nav-link(href='#projects') Ponente
+                        //- li.nav-item
+                        //-     a.nav-link(href='#price') Precio
                         li.nav-item
-                            a.nav-link(href='#signup') Contact
+                            a.nav-link(href='#beca') Becas
+                        li.nav-item
+                            a.nav-link(href='#signup') Regístrate
 
         // Masthead
         header.masthead
             .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
                 .d-flex.justify-content-center
                     .text-center
-                        h1.mx-auto.my-0.text-uppercase Grayscale
-                        h2.text-white-50.mx-auto.mt-2.mb-5 A free, responsive, one page Bootstrap theme created by Start Bootstrap.
-                        a.btn.btn-primary(href='#about') Get Started
+                        h2.text-white.mx-auto.mt-2  Aprende cómo se hace la
+                        h1.mx-auto.my-0.text-uppercase.mb-5 música en Hollywood
+                        h3.text-white.text-uppercase.mb-5 27 de Agosto
+                        a.btn.btn-primary(href='#about') Quiero saber más
 
         // About
         section#about.about-section.text-center
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5.justify-content-center
                     .col-lg-8
-                        h2.text-white.mb-4 Built with Bootstrap 5
-                        p.text-white-50
-                            | Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on 
-                            a(href='https://startbootstrap.com/theme/grayscale/') the preview page.
-                            | The theme is open source, and you can use it for any purpose, personal or commercial.
-                img.img-fluid(src='assets/img/ipad.png', alt='...')
+                        h2.text-white.mb-4 ¿En qué consiste?
+                        p.text-white-50 El taller consistirá en la exposición de técnicas de producción musical aplicada a la música para cine y videojuegos. Se compartirán los secretos y metodologías usadas en uno de los estudios mas importantes a nivel mundial a través del análisis de piezas musicales reales y que han pasado por todas las etapas de producción para llegar a las pantallas chica y grande.
+                        p.text-white-50 Se analizará cada uno de los tracks de las piezas (Percusión, Cuerdas, Cobres, Synth, Efectos de Sonido, etc),en un DAW (Cubase) las técnicas compositivas utilizadas, y cómo interactua cada uno para generar una pieza musical que funcione en sincronía con la imagen. 
+                img.img-fluid(src='assets/img/camilo3.jpeg', alt='...')
 
         // Projects
         section#projects.projects-section.bg-light
@@ -67,36 +70,74 @@ html(lang='en')
                 // Featured Project Row
                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                     .col-xl-8.col-lg-7
-                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/bg-masthead.jpg', alt='...')
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/camilo.png', alt='...')
                     .col-xl-4.col-lg-5
                         .featured-text.text-center.text-lg-left
-                            h4 Shoreline
-                            p.text-black-50.mb-0
-                                | Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!
+                            h4 Camilo Forero
+                            p.text-black-50.mb-0 Camilo Forero (aka. iRGASM) es un compositor colombiano que actualmente trabaja en la prestigiosa empresa de Hans Zimmer Bleeding Fingers en Santa Monica, CA. Camilo se graduó Summa Cum Laude (con máximos honores) de Berklee College of Music con un título en Film Scoring y Video Game Scoring en el 2018.
                 // Project One Row
                 .row.gx-0.mb-5.mb-lg-0.justify-content-center
-                    .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
-                    .col-lg-6
-                        .bg-black.text-center.h-100.project
-                            .d-flex.h-100
-                                .project-text.w-100.my-auto.text-center.text-lg-left
-                                    h4.text-white Misty
-                                    p.mb-0.text-white-50
-                                        | An example of where you can put an image of a project, or anything else, along with a description.
-                                    hr.d-none.d-lg-block.mb-0.ms-0
+                    .bg-black.h-100.project
+                        .d-flex.h-100
+                            .project-text.w-100.my-auto.text-lg-left
+                                h4.text-white.text-center Créditos
+                                ul.mb-0.text-white-50
+                                    li Netflix's [Money Heist Game](https://youtu.be/IGWyKONvkwQ) - Co-Composer *(In Progress)*
+                                    li Netflix's Earthstorms - Composer for Bleeding Fingers *(In Progress)*
+                                    li Apple TV+'s [Prehistoric Planet](https://tv.apple.com/us/show/prehistoric-planet/umc.cmc.4lh4bmztauvkooqz400akxav) - Additional Music & Music Editor.
+                                    li BBC's [Universe](https://www.bbcearth.com/shows/universe) - Additional Music for Bleeding Fingers.
+                                    li FOX's [Masterchef](https://www.fox.com/masterchef/) S11 & S12 - Additional Music for Bleeding Fingers.
+                                    li FOX's [Lego Master](https://www.fox.com/lego-masters/) S2 - Additional Music for Bleeding Fingers.
+                                    li USA's [America's Big Deal](https://www.usanetwork.com/americas-big-deal?lang=es) - Additional Music for Bleeding Fingers.
+                                    li NBC's [The Courtship](https://www.nbc.com/the-courtship) - Additional Music for Bleeding Fingers.
+                                    li Netflix's [Go! Live Your Own Way](https://www.youtube.com/watch?v=9WiRFDHWLjE) - Music Editor.
+                                    li Activision's [Destiny 2 Shadowkeep](https://www.youtube.com/watch?v=LFYJTudJ540) - Assistant Engineer.
+                                    li [Life is Strange 2](https://www.youtube.com/watch?v=1xYpXzqmk8Y) - Assistant Engineer.
+                                    li Marvel's [Spider Man 2018](https://www.youtube.com/watch?v=q4GdJVvdxss) - Assistant Engineer.
+                                    li WB's [The Lego Movie 2](https://www.youtube.com/watch?v=cksYkEzUa7k) - Assistant Engineer.
+                                hr.d-none.d-lg-block.mb-0.ms-0
                 // Project Two Row
                 .row.gx-0.justify-content-center
                     .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-02.jpg', alt='...')
+                        img.img-fluid(src='assets/img/camilo2.jpeg', alt='...')
                     .col-lg-6.order-lg-first
-                        .bg-black.text-center.h-100.project
+                        .bg-black.h-100.project
                             .d-flex.h-100
-                                .project-text.w-100.my-auto.text-center.text-lg-right
-                                    h4.text-white Mountains
-                                    p.mb-0.text-white-50
-                                        | Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!
+                                .project-text.w-100.my-auto.text-lg-right
+                                    h4.text-white Premios y Reconocimientos.text-center
+                                    ul.mb-0.text-white-50
+                                        li 1er Puesto "Banda Sonora para Cortometraje" - Orquesta Filarmónica Bogotá 2020
+                                        li 1er Puesto Rec Change International Film Scoring Competition 2020
+                                        li 1er Puesto Rec Change International Video Game Scoring Competition 2020
+                                        li "Beca Mérito" para la Maestría en "Screen Scoring" de la Universidad del Sur de California (USC) 2020
+                                        li Beca "G.A.N.G. Scholars" para el GameSoundCon 2018.
+                                        li "Beca al Logro" para el programa de "Film Scoring" de Berklee College of Music.
                                     hr.d-none.d-lg-block.mb-0.me-0
+
+        // Price
+        //- section#price.about-section.text-center
+        //-     .container.px-4.px-lg-5
+        //-         .row.gx-4.gx-lg-5.justify-content-center
+        //-             .col-lg-8
+        //-                 h2.text-white.mb-4 Boleto de la Master Class
+        //-                 h3.text-white-50 $270,000 COP
+        //-                 p.text-white-50 27 de Agosto
+
+        // Beca
+        section#beca.about-section.text-center
+            .container.px-4.px-lg-5
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-lg-8
+                        h2.text-white.mb-4 Becas
+                        h4.text-white.mb-4 Perfil del becario (mayor de 15 años) 
+                        p.text-white-50 Para participar de la beca, la persona interesada deberá enviar una carta de motivación (no mayor a 500 palabras) en donde exprese cual es su motivación para aprender composición musical para cine y videojuegos. Además de un portafolio con mínimo 3 piezas musicales en donde demuestre su trabajo compositivo. Si bien, se recomienda que la pieza vaya acompañada de un trabajo audiovisual (video o videojuego), también pueden enviar obras musicales que no hayan sido compuestas para algún medio, pero que demuestren su musicalidad y habilidades de producción.
+                        p.text-white-50 El portafolio debe ser subido a un servicio de almacenamiento como Dropbox, Google Drive, etc. 
+                       
+                        h4.text-white.mb-4 Perfil del becario (menor de 15 años) 
+                        p.text-white-50 Para participar de la beca, la persona interesada deberá enviar una carta de motivación (no mayor a 500 palabras) en donde exprese cual es su motivación para aprender composición musical para cine y videojuegos.
+                        
+                        a.text-white-50(href="https://forms.gle/BviPMZctmNPKdSiAA ")
+                            h2.mb-5 Aplica aquí
 
         // Signup
         section#signup.signup-section
@@ -104,7 +145,7 @@ html(lang='en')
                 .row.gx-4.gx-lg-5
                     .col-md-10.col-lg-8.mx-auto.text-center
                         i.far.fa-paper-plane.fa-2x.mb-2.text-white
-                        h2.text-white.mb-5 Subscribe to receive updates!
+                        h2.text-white.mb-5 Regístrate para obtener más información!
 
                         // * * * * * * * * * * * * * * *
                         // * * SB Forms Contact Form * *
@@ -115,7 +156,7 @@ html(lang='en')
                         // https://startbootstrap.com/solution/contact-forms
                         // to get an API token!
                         
-                        form#contactForm.form-signup(data-sb-form-api-token='API_TOKEN')
+                        form#contactForm.form-signup(data-sb-form-api-token='7c25cccb-0d67-460d-9814-cae809f702c9')
 
                             // Email address input
 
@@ -162,9 +203,9 @@ html(lang='en')
                         .card.py-4.h-100
                             .card-body.text-center
                                 i.fas.fa-map-marked-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Address
+                                h4.text-uppercase.m-0 Dirección
                                 hr.my-4.mx-auto
-                                .small.text-black-50 4923 Market Street, Orlando FL
+                                .small.text-black-50 Cra. 50 #88-35, Barranquilla, Atlántico, Colombia
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
@@ -172,26 +213,22 @@ html(lang='en')
                                 h4.text-uppercase.m-0 Email
                                 hr.my-4.mx-auto
                                 .small.text-black-50
-                                    a(href='#!') hello@yourdomain.com
+                                    a(href='#!') info@musiccentre.com
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
                                 i.fas.fa-mobile-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Phone
+                                h4.text-uppercase.m-0 Whatapp
                                 hr.my-4.mx-auto
-                                .small.text-black-50 +1 (555) 902-8832
+                                .small.text-black-50 311 4200732
                 .social.d-flex.justify-content-center
-                    a.mx-2(href='#!')
-                        i.fab.fa-twitter
-                    a.mx-2(href='#!')
-                        i.fab.fa-facebook-f
-                    a.mx-2(href='#!')
-                        i.fab.fa-github
+                    a.mx-2(href='https://www.instagram.com/musiccentrebaq/')
+                        i.fab.fa-instagram
 
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container.px-4.px-lg-5
-                | Copyright &copy; Your Website 2022
+                | Copyright &copy; Music Centre 2022
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')
